@@ -28,8 +28,7 @@ app.get('/Login.html', function(req, res) {
 app.post('/post.html',function(req,res){
     /*var email=req.body.email;
     var password=req.body.password;*/
-    email="edouard.mallecourt@gmail.com"
-    password="Doudou_69"
+
     const options={
         url    : 'https://internal-api-staging-lb.interact.io/v2/login',
         json   : true,
