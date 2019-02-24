@@ -62,7 +62,6 @@ app.get('/contacts', function(req, res){
     }
     request(contact_request,function callback_login(error, response, body) {
         if(response.statusCode>=200 && response.statusCode<400){
-            console.log('cc');
             res.send(body);
             
         }
@@ -89,8 +88,6 @@ app.post('/logout.html',function(req,res){
 
   request(options,function callback_login(error, response, body) {
     if(response.statusCode>=200 && response.statusCode<400){
-        console.log(response.statusCode);
-        console.log(body);
         return res.redirect('/Login.html');
     }
 
