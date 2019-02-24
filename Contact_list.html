@@ -1,0 +1,45 @@
+ <html>
+ <head>
+ 	<!--Import Google Icon Font-->
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+ 	<!--Import materialize.css-->
+ 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+ 	<link rel="stylesheet" href="contact_list.css" type="text/css" />
+
+ 	<!--Let browser know website is optimized for mobile-->
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+ 	<!-- Compiled and minified CSS -->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+
+ 	<!-- Compiled and minified JavaScript -->
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+ </head>
+
+ <body class="container">
+ 	<table class="centered"> <!-- table to display contacts-->
+ 		<thead>
+ 			<tr>
+ 				<th>Name</th>
+ 				<th>Email</th>
+ 				<th>Website</th>
+ 				<th>Phone Number</th>
+ 			</tr>
+ 		</thead>
+
+ 		<tbody id="contacts_info"></tbody>
+
+ 	</table>
+
+ 	<form method="post" action='/logout.html'> <!-- form to do request to interact.io-->
+ 		<input type="submit" value="Logout" >
+ 	</form>
+
+ </body>
+ </html>
+
+ <script src="contact_list.js"></script>  <!-- script to modify our html page -->

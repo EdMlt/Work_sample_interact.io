@@ -1,13 +1,10 @@
 const logbut=document.getElementById('login_button');
-console.log(logbut);
-console.log('cc');
-
 
 const password = document.getElementById('password');
 
 
-
-email.addEventListener('change', function(event) {
+//function toalert the user if his logs aren't good
+email.addEventListener('change', function(event) { 
 	var expressionReguliere = /^(([^<>()[]\.,;:s@]+(.[^<>()[]\.,;:s@]+)*)|(.+))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
 	if (expressionReguliere.test(document.getElementById('email').value))
 	{
