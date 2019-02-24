@@ -1,0 +1,10 @@
+body{
+	margin-top: 2%;
+}
+
+input[value="Logout"]
+{
+	position: absolute;
+	margin-top: 1%;
+	left: 50%;
+}
